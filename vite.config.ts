@@ -2,11 +2,13 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [
     TanStackRouterVite(),
     react(),
+    tailwindcss(), // Add this here to handle your style.css
   ],
   resolve: {
     alias: {
@@ -16,6 +18,6 @@ export default defineConfig({
   build: {
     outDir: "dist",
     emptyOutDir: true,
-    sourcemap: false // Keeps the build light for Vercel
+    sourcemap: false 
   },
 });
