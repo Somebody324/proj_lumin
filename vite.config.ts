@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     TanStackRouterVite(),
     react(),
-    tailwindcss(), // Add this here to handle your style.css
+    tailwindcss(),
   ],
   resolve: {
     alias: {
@@ -18,6 +18,6 @@ export default defineConfig({
   build: {
     outDir: "dist",
     emptyOutDir: true,
-    sourcemap: false 
+    sourcemap: false
   },
 });
