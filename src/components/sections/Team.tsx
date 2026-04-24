@@ -5,7 +5,7 @@ import { Linkedin, Twitter } from "lucide-react";
 import daks from "@/assets/daks.png";
 import mc from "@/assets/mc.jpg";
 import erich from "@/assets/erich.jpg";
-import jean from "@/assets/jie.jpg";
+import jean from "@/assets/jean.jpg";
 import jie from "@/assets/jie.jpg";
 
 const team = [
