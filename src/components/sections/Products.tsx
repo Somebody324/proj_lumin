@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import aria from "@/assets/product-aria.jpg";
+import aria from "@/assets/product-ariaa.jpg";
 import sera from "@/assets/product-sera.png";
 import lakbai from "@/assets/product-lakbai.png";
 
