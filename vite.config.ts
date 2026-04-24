@@ -16,9 +16,6 @@ export default defineConfig({
   build: {
     outDir: "dist",
     emptyOutDir: true,
-  },
-  server: {
-    host: "::",
-    port: 8080,
+    sourcemap: false // Keeps the build light for Vercel
   },
 });
