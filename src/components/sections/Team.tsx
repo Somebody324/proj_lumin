@@ -2,7 +2,7 @@ import { Linkedin, Twitter } from "lucide-react";
 
 // 1. Import your local images from your src folder
 // Adjust these paths based on your actual folder structure
-import daks from "@/assets/received_1011848037857363.png";
+import daks from "@/assets/received_1011848037857363.jpeg";
 import mc from "@/assets/mc.jpg";
 import erich from "@/assets/erich.jpg";
 import jean from "@/assets/jean.jpg";
